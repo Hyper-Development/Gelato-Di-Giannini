@@ -314,11 +314,11 @@
 	
 	$(function(){
 		mobileMenuOutsideClick();
-		offcanvasMenu();
+		// offcanvasMenu();
 		burgerMenu();
 		contentWayPoint();
 		sliderMain();
-		dropdown();
+		// dropdown();
 		goToTop();
 		loaderPage();
 		counterWayPoint();

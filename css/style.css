@@ -332,12 +332,13 @@ figure {
   position: relative;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #hyper-header {
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: initial;
+    -webkit-overflow-scrolling: touch;
   }
-} */
+}
 
 #hyper-header .overlay {
   z-index: 0;
